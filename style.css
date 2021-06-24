@@ -11,13 +11,13 @@
 }
 @font-face{
     font-family: "Rochester-Regular"; 
-    src: url("/fonts/Rochester-Regular.ttf") format("truetype"); 
+    src: url("fonts/Rochester-Regular.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
 }
 @font-face{
     font-family: "Inter-Regular"; 
-    src: url("/fonts/Inter-Regular.ttf") format("truetype");
+    src: url("fonts/Inter-Regular.ttf") format("truetype");
     font-style: normal; 
     font-weight: normal; 
 }
@@ -219,7 +219,7 @@ body{
     justify-content: center;
     width: 100%;
     height: 88vh;
-    background-image: url(/img/bg/header-bg.jpg);
+    background-image: url(img/bg/header-bg.jpg);
     box-sizing: 100%;
     background-repeat: no-repeat;
     background-size: cover;
