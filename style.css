@@ -425,6 +425,9 @@ body{
     flex-direction: row;
     justify-content: center;
 }
+.case-body-img-mob{
+    display: none;
+}
 .case-body-img{
     display: flex;
     flex-direction: column;
@@ -702,7 +705,7 @@ body{
     opacity: 1;
 }
 .mobile-menu__checkbox:checked ~ .mobile-menu__container {
-    height: 30vh;
+    height: 38vh;
 }
 .mobile-menu__checkbox:checked ~ .mobile-menu__btn .mobile-menu__icon {
     background: transparent;
@@ -860,6 +863,12 @@ body{
 }
 /*--------------- 1100px -----------*/
 @media (max-width: 1100px){
+    .red-button {
+        margin-top: 10%;
+    }
+    .white-button {
+        margin-top: 10%;
+    }
     .header-body{
         height: 68vh;
         background-position: right;
@@ -882,6 +891,7 @@ body{
     }
     .about-body{
         flex-direction: column;
+        padding: 8.5% 5% 15% 10%;
     }
     .about-body-text-text{
         margin-top: 5%;
@@ -892,21 +902,26 @@ body{
     .about-body-img-mob{
         display: flex;
         margin-top: 7%;
+        width: 300px;
+        height: 370px;
     }
     .stick{
         margin: 20px 4% 0% 4%;
     }
     .services-body{
-        padding: 0% 0% 10% 0%;
+        padding: 0% 0% 15% 0%;
     }
     .services-body-manicure-body{
-        padding: 0% 0% 0% 5%;
+        padding: 0% 3% 0% 3%;
+        justify-content: space-around;
     }
     .services-body-manicure-body-blocks{
         margin-top: 5%;
+        width: 150px;
     }
     .services-body-manicure-body div img {
-        width: 200px;
+        width: 150px;
+        filter: drop-shadow(0px 0px 14px rgba(0, 0, 0, 0.25));
     }
     .services-body-design-title{
         margin-top: 6%;
@@ -914,21 +929,25 @@ body{
     .services-body-design-body div img {
         width: 140px;
         height: auto;
+        filter: drop-shadow(0px 0px 14px rgba(0, 0, 0, 0.25));
     }
     .services-body-design-body div{
         margin-top: 5%;
     }
     .services-body-design-body div:not(:first-child) {
-        margin-left: 2%;
+        margin-left: 3%;
     }
     .services-body-design-body div:not(:last-child) {
-        margin-right: 2%;
+        margin-right: 3%;
     }
     .services-text {
         font-size: 16px;
     }
     .services-text-price {
         font-size: 20px;
+    }
+    .promotion-body {
+        padding: 0% 5% 10% 5%;
     }
     .promotion-body-group{
         flex-direction: column;
@@ -950,16 +969,23 @@ body{
     .case-body-text-title{
         text-align: center;
     }
+    .case-body {
+        padding: 0% 0% 15% 0%;
+    }
     .case-body-img{
+        display: none;
+    }
+    .case-body-img-mob{
+        display: flex;
         padding: 0% 9% 0% 9%;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
-    .case-body-img-group1 img, .case-body-img-group2 img {
-        width: 336px;
-        height: auto;
-        filter: drop-shadow(0px 0px 14px rgba(0, 0, 0, 0.25));
-    }
-    .case-body-img-group1 img, .case-body-img-group2 img {
-        width: 90px;
+    .case-body-img-mob img{
+        width: 140px;
+        margin-top: 10%;
+        filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
     }
     .case-body-text2{
         font-size: 20px;
@@ -971,8 +997,12 @@ body{
     .parallax-bg{
         width: auto;
     }
+    .comments-body {
+        padding: 0% 0% 15% 0%;
+    }
     .comments-body-group{
         padding: 0% 5% 0% 10%;
+        margin-top: 7%;
     }
     .comments-body-comment-name{
         font-size: 20px;
@@ -986,6 +1016,9 @@ body{
     .map-mob{
         display: flex;
         margin: 0%;
+    }
+    .contacts-body {
+        padding: 0% 0% 10% 0%;
     }
     .contacts-body-group-map{
         margin-left: calc(50vw - 160px);
@@ -1024,6 +1057,12 @@ body{
 }
 /*--------------- 375px -----------*/
 @media (max-width: 375px){
+    .red-button {
+        margin-top: 10%;
+    }
+    .white-button {
+        margin-top: 10%;
+    }
     .header-body{
         height: 68vh;
         background-position: right;
@@ -1046,6 +1085,7 @@ body{
     }
     .about-body{
         flex-direction: column;
+        padding: 8.5% 5% 15% 10%;
     }
     .about-body-text-text{
         margin-top: 5%;
@@ -1056,21 +1096,26 @@ body{
     .about-body-img-mob{
         display: flex;
         margin-top: 7%;
+        width: 300px;
+        height: 370px;
     }
     .stick{
         margin: 20px 4% 0% 4%;
     }
     .services-body{
-        padding: 0% 0% 10% 0%;
+        padding: 0% 0% 15% 0%;
     }
     .services-body-manicure-body{
-        padding: 0% 0% 0% 5%;
+        padding: 0% 3% 0% 3%;
+        justify-content: space-around;
     }
     .services-body-manicure-body-blocks{
         margin-top: 5%;
+        width: 150px;
     }
     .services-body-manicure-body div img {
-        width: 200px;
+        width: 150px;
+        filter: drop-shadow(0px 0px 14px rgba(0, 0, 0, 0.25));
     }
     .services-body-design-title{
         margin-top: 6%;
@@ -1078,21 +1123,25 @@ body{
     .services-body-design-body div img {
         width: 140px;
         height: auto;
+        filter: drop-shadow(0px 0px 14px rgba(0, 0, 0, 0.25));
     }
     .services-body-design-body div{
         margin-top: 5%;
     }
     .services-body-design-body div:not(:first-child) {
-        margin-left: 2%;
+        margin-left: 3%;
     }
     .services-body-design-body div:not(:last-child) {
-        margin-right: 2%;
+        margin-right: 3%;
     }
     .services-text {
         font-size: 16px;
     }
     .services-text-price {
         font-size: 20px;
+    }
+    .promotion-body {
+        padding: 0% 5% 10% 5%;
     }
     .promotion-body-group{
         flex-direction: column;
@@ -1114,16 +1163,23 @@ body{
     .case-body-text-title{
         text-align: center;
     }
+    .case-body {
+        padding: 0% 0% 15% 0%;
+    }
     .case-body-img{
+        display: none;
+    }
+    .case-body-img-mob{
+        display: flex;
         padding: 0% 9% 0% 9%;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
-    .case-body-img-group1 img, .case-body-img-group2 img {
-        width: 336px;
-        height: auto;
-        filter: drop-shadow(0px 0px 14px rgba(0, 0, 0, 0.25));
-    }
-    .case-body-img-group1 img, .case-body-img-group2 img {
-        width: 90px;
+    .case-body-img-mob img{
+        width: 140px;
+        margin-top: 10%;
+        filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
     }
     .case-body-text2{
         font-size: 20px;
@@ -1135,8 +1191,12 @@ body{
     .parallax-bg{
         width: auto;
     }
+    .comments-body {
+        padding: 0% 0% 15% 0%;
+    }
     .comments-body-group{
         padding: 0% 5% 0% 10%;
+        margin-top: 7%;
     }
     .comments-body-comment-name{
         font-size: 20px;
@@ -1150,6 +1210,9 @@ body{
     .map-mob{
         display: flex;
         margin: 0%;
+    }
+    .contacts-body {
+        padding: 0% 0% 10% 0%;
     }
     .contacts-body-group-map{
         margin-left: calc(50vw - 160px);
