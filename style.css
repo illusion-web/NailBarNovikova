@@ -1125,8 +1125,8 @@ body{
         width: 150px;
         filter: drop-shadow(0px 0px 14px rgba(0, 0, 0, 0.25));
     }
-    .services-body-design-title{
-        margin-top: 6%;
+    .services-body-design-title, .services-body-manicure-title{
+        margin-top: 10%;
     }
     .services-body-design-body div:not(:first-child) {
         margin-left: 0%;
