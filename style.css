@@ -911,6 +911,13 @@ body{
     .services-body{
         padding: 0% 0% 15% 0%;
     }
+    .services-text{
+        margin-top: 7%;
+    }
+    .services-body-design-body {
+        justify-content: space-around;
+        padding: 0% 3% 0% 3%;
+    }
     .services-body-manicure-body{
         padding: 0% 3% 0% 3%;
         justify-content: space-around;
@@ -933,12 +940,6 @@ body{
     }
     .services-body-design-body div{
         margin-top: 5%;
-    }
-    .services-body-design-body div:not(:first-child) {
-        margin-left: 3%;
-    }
-    .services-body-design-body div:not(:last-child) {
-        margin-right: 3%;
     }
     .services-text {
         font-size: 16px;
@@ -1105,6 +1106,13 @@ body{
     .services-body{
         padding: 0% 0% 15% 0%;
     }
+    .services-text{
+        margin-top: 7%;
+    }
+    .services-body-design-body {
+        justify-content: space-around;
+        padding: 0% 3% 0% 3%;
+    }
     .services-body-manicure-body{
         padding: 0% 3% 0% 3%;
         justify-content: space-around;
@@ -1120,6 +1128,12 @@ body{
     .services-body-design-title{
         margin-top: 6%;
     }
+    .services-body-design-body div:not(:first-child) {
+        margin-left: 0%;
+    }
+    .services-body-design-body div:not(:last-child) {
+        margin-right: 0%;
+    }
     .services-body-design-body div img {
         width: 140px;
         height: auto;
@@ -1127,12 +1141,6 @@ body{
     }
     .services-body-design-body div{
         margin-top: 5%;
-    }
-    .services-body-design-body div:not(:first-child) {
-        margin-left: 3%;
-    }
-    .services-body-design-body div:not(:last-child) {
-        margin-right: 3%;
     }
     .services-text {
         font-size: 16px;
