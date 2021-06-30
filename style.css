@@ -333,6 +333,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
+    margin-top: 5%;
 }
 .services-text-price{
     font-family: Inter-Regular;
@@ -764,7 +765,7 @@ body{
     .contacts-body-group{
         flex-direction: column;
         width: fit-content;
-        padding: 0% 0% 0% calc(50vw - 400px);
+        padding: 0% 0% 0% calc(50vw - 430px);
     }
     .contacts-body-group-map{
         justify-content: center;
@@ -849,7 +850,49 @@ body{
         padding: 0% 5% 0% 20%;
     }
     .contacts-body-group{
-        padding: 0% 0% 0% calc(50vw - 360px);
+        padding: 0% 0% 0% calc(50vw - 430px);
+    }
+}
+/*--------------- 1470px -----------*/
+@media (max-width: 1470px){
+    .about-body-img {
+        width: auto;
+        height: 432px;
+    }
+    .about-body{
+        flex-direction: column;
+        padding: 6% 7% 8% calc(50vw - 243px);
+    }
+    .about-body-text {
+        margin: 0% 0% 0% 0%;
+    }
+    .about-body-text-text{
+        margin-top: 5%;
+    }
+    .about-body-img{
+        display: none;
+    }
+    .about-body-img-mob{
+        display: flex;
+        margin-top: 3%;
+        width: 50vh;
+        height: auto;
+        text-align: center;
+    }
+    .about-body-text-title{
+        text-align: end;
+    }
+    .case-body-img{
+        display: none;
+    }
+    .case-body-img-mob{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 0% 5% 0% 5%;
+    }
+    .case-body-img-mob img{
+        margin-top: 4%;
     }
 }
 /*--------------- 1100px -----------*/
@@ -860,9 +903,6 @@ body{
     .mobile-menu{
         display: block;
     }
-}
-/*--------------- 1100px -----------*/
-@media (max-width: 1100px){
     .red-button {
         margin-top: 10%;
     }
@@ -891,7 +931,7 @@ body{
     }
     .about-body{
         flex-direction: column;
-        padding: 8.5% 5% 15% 10%;
+        padding: 6% 8% 10% 17%;
     }
     .about-body-text-text{
         margin-top: 5%;
@@ -901,9 +941,9 @@ body{
     }
     .about-body-img-mob{
         display: flex;
-        margin-top: 7%;
-        width: 300px;
-        height: 370px;
+        margin-top: 3%;
+        width: 32vh;
+        height: auto;
     }
     .stick{
         margin: 20px 4% 0% 4%;
@@ -962,7 +1002,7 @@ body{
     .promotion-body-group-promotion1 img, .promotion-body-group-promotion2 img {
         width: 64px;
         height: auto;
-        margin-left: calc(50vw - 48px);
+        margin-left: calc(46vw - 48px);
     }
     .promotion-body-group-promotion-text {
         font-size: 20px;
@@ -979,7 +1019,7 @@ body{
     .case-body-img-mob{
         display: flex;
         padding: 0% 9% 0% 9%;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-direction: row;
         flex-wrap: wrap;
     }
@@ -1002,7 +1042,7 @@ body{
         padding: 0% 0% 15% 0%;
     }
     .comments-body-group{
-        padding: 0% 5% 0% 10%;
+        padding: 0% 5% 0% 20%;
         margin-top: 7%;
     }
     .comments-body-comment-name{
@@ -1021,8 +1061,11 @@ body{
     .contacts-body {
         padding: 0% 0% 10% 0%;
     }
+    .contacts-body-group {
+        padding: 0% 0% 0% calc(50vw - 160px);
+    }
     .contacts-body-group-map{
-        margin-left: calc(50vw - 160px);
+        margin-left: 0%;
         margin-top: 4%;
     }
     .contacts-body-group-map-text{
@@ -1031,7 +1074,7 @@ body{
     .contacts-body-group-contacts{
         flex-direction: column;
         margin-top: 3vh;
-        margin-left: calc(50vw - 120px);
+        margin-left: 14%;
     }
     .contacts-body-group-contacts-all, .contacts-body-group-contacts-all:not(:first-child){
         margin-left: 10%;
@@ -1054,6 +1097,24 @@ body{
     }
     .footer-body-text1, .footer-body-text1 a{
         font-size: 10px;
+    }
+}
+/*--------------- 1024px -----------*/
+@media (max-width: 1024px){
+    .case-body-img-mob {
+        padding: 0% 24% 0% 24%;
+    }
+    .case-body {
+        padding: 0% 0% 10% 0%;
+    }
+    .comments-body {
+        padding: 0% 0% 10% 0%;
+    }
+}
+/*--------------- 768px -----------*/
+@media (max-width: 768px){
+    .case-body-img-mob {
+        padding: 0% 15% 0% 15%;
     }
 }
 /*--------------- 375px -----------*/
@@ -1087,6 +1148,10 @@ body{
     .about-body{
         flex-direction: column;
         padding: 8.5% 5% 15% 10%;
+    }
+    .about-body-text-title{
+        margin: 0%;
+        text-align: center;
     }
     .about-body-text-text{
         margin-top: 5%;
@@ -1221,6 +1286,9 @@ body{
     }
     .contacts-body {
         padding: 0% 0% 10% 0%;
+    }
+    .contacts-body-group{
+        padding: 0%;
     }
     .contacts-body-group-map{
         margin-left: calc(50vw - 160px);
