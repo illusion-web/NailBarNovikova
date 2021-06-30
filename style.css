@@ -1133,6 +1133,10 @@ body{
 }
 /*--------------- 400px -----------*/
 @media (max-width: 400px){
+    .about-body {
+        flex-direction: column;
+        padding: 6% 7% 8% calc(50vw - 150px);
+    }
     .about-body-img-mob{
         width: 300px;
         height: 370px;
