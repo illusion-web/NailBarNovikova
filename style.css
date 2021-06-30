@@ -1117,6 +1117,20 @@ body{
         padding: 0% 15% 0% 15%;
     }
 }
+/*--------------- 500px -----------*/
+@media (max-width: 500px){
+    .about-body {
+        flex-direction: column;
+        padding: 6% 7% 8% calc(50vw - 155px);
+    }
+    .about-body-text-title{
+        text-align: center;
+        margin: 0%;
+    }
+    .case-body-img-mob {
+        padding: 0% 9% 0% 9%;
+    }
+}
 /*--------------- 375px -----------*/
 @media (max-width: 375px){
     .red-button {
