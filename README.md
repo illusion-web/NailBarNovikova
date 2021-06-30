@@ -1,4 +1,4 @@
 # NailBarNovikova
-Created by Toma (Telegram-@brickstick) and Ilya (Telegram-@ilyu134
+Created by Ilya (Telegram-@ilyu134)
 
 https://illusion-web.github.io/NailBarNovikova/
